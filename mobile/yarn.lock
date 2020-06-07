@@ -2496,6 +2496,13 @@ expo-location@~8.1.0:
   dependencies:
     invariant "^2.2.4"
 
+expo-mail-composer@~8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/expo-mail-composer/-/expo-mail-composer-8.1.0.tgz#7de693861e374add34ba4da69df677c2d6ba7104"
+  integrity sha512-CMkDa5YX9YZj/ZLHp0f1WAMBrCZjGqsloOH9JzhnCwMVy0BR+lLYoYWiwx2zk2JTpUgADXjdQKK4edDFclGwtg==
+  dependencies:
+    query-string "^6.2.0"
+
 expo-permissions@~8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-8.1.0.tgz#a7f2ee91ba76ce3a467e7b10adaa9ca5201b226f"
@@ -4428,7 +4435,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -4468,6 +4475,15 @@ query-string@^6.12.1:
   version "6.12.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.12.1.tgz#2ae4d272db4fba267141665374e49a1de09e8a7c"
   integrity sha512-OHj+zzfRMyj3rmo/6G8a5Ifvw3AleL/EbcHMD27YA31Q+cO5lfmQxECkImuNVjcskLcvBRVHNAB3w6udMs1eAA==
+  dependencies:
+    decode-uri-component "^0.2.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
+
+query-string@^6.2.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.0.tgz#8d875f66581c854d7480ac79478abb847de742f6"
+  integrity sha512-KJe8p8EUcixhPCp4cJoTYVfmgKHjnAB/Pq3fiqlmyNHvpHnOL5U4YE7iI2PYivGHp4HFocWz300906BAQX0H7g==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
@@ -4551,6 +4567,13 @@ react-native-screens@~2.2.0:
   integrity sha512-a0VzxOWot7F9B/GQyDSssBRd3jUJazFnTQS61IiyReWB6aHlFhf3Xz10jBRoURXy1EMCDCHgenmTVTkKHpKyqQ==
   dependencies:
     debounce "^1.2.0"
+
+react-native-spinkit@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/react-native-spinkit/-/react-native-spinkit-1.5.0.tgz#598b4b138b1e95cc232dfb2fc7e64dcdd45de574"
+  integrity sha512-HHOIH3Lq+oFsmhPBO9Y2hcxkKNm955gmNBaFgNUrshhGU4Dqp8qWj3bbVrwjBJOC5W+cvHSqyTsfgmpMPoUoTA==
+  dependencies:
+    prop-types "^15.5.8"
 
 react-native-svg@11.0.1:
   version "11.0.1"
