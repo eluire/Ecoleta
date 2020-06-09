@@ -19,6 +19,7 @@ interface Point {
   id: number;
   name: string;
   image: string;
+  image_url: string;
   latitude: number;
   longitude: number;
 }
@@ -94,6 +95,7 @@ const Points = () => {
     if (alreadySelected >= 0) {
       const filteredItems = selectedItems.filter((item) => item !== id);
 
+      console.log(filteredItems);
       setSelectedItems(filteredItems);
     } else {
       setSelectedItems([...selectedItems, id]);
@@ -145,7 +147,7 @@ const Points = () => {
                     <Image
                       style={styles.mapMarkerImage}
                       source={{
-                        uri: point.image,
+                        uri: point.image_url,
                       }}
                     />
                     <Text style={styles.mapMarkerTitle}>{point.name}</Text>
